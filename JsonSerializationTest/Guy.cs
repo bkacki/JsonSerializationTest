@@ -32,4 +32,10 @@ namespace JsonSerializationTest
         public float Length { get; set; }
         public override string ToString() => $"{Color} włosy o długości {Length:0.0}cm";
     }
+
+    public class Dude
+    {
+        public string Name { get; set; }
+        public HairStyle Hair { get; set; }
+    }
 }
